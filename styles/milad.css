@@ -1,0 +1,25 @@
+:root {
+    --yellow-main: #00819a;
+    --yellow-hover: #009BB8;
+    --text-color: #00819a;
+}
+
+.header-bismillah {
+    display: inline-block;
+    width: 130px;
+    aspect-ratio: 498 / 111;
+    height: auto;
+    background-color: var(--text-color);
+    -webkit-mask: url('/assets/bismillah.svg') center / contain no-repeat;
+    mask: url('/assets/bismillah.svg') center / contain no-repeat;
+}
+
+.footer-logo {
+    display: inline-block;
+    width: 150px;
+    aspect-ratio: 479 / 384;
+    height: auto;
+    background-color: var(--text-color);
+    -webkit-mask: url('/assets/dove.svg') center / contain no-repeat;
+    mask: url('/assets/dove.svg') center / contain no-repeat;
+}
