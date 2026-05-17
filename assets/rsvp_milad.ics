@@ -1,19 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//fatema.alizaheer.org//Wedding RSVP//EN
+PRODID:-//fatema.alizaheer.org//Milad RSVP//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-SUMMARY:Wedding of Ali Zaheer & Fatema
-DESCRIPTION:‎بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ\n\nThe Rizvi and Khimji families cordially invite you to join us for the Nikāḥ Ceremony and Walīma dinner of Ali Zaheer and Fatema.\n\nKindly accept this as a personal invitation from both our families and remember to keep the couple in your prayers.
-LOCATION:Jaffari Community Centre, 9000 Bathurst St, Thornhill, ON
-DTSTART;TZID=America/Toronto:20260907T144500
-DTEND;TZID=America/Toronto:20260907T180000
-ORGANIZER;CN="Ali Zaheer and Fatema":MAILTO:fatema@alizaheer.org
-ATTACH;VALUE=URI;X-FILE-TYPE=JPEG:https://fatema.alizaheer.org/assets/invitation.jpg
+SUMMARY:Fatema Khimji's Mīlād
+DESCRIPTION:‎بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ\n\nSabira and Negīn invite you to Fatema's Mīlād.\n\nJoin us for an inspiring afternoon...
+LOCATION:Bella Gardens, 12700 Jane St, King City, ON
+DTSTART;TZID=America/Toronto:20260905T150000
+DTEND;TZID=America/Toronto:20260905T180000
+ORGANIZER;CN="Fatema Khimji's Mīlād":MAILTO:fatema@alizaheer.org
+ATTACH;VALUE=URI;X-FILE-TYPE=JPEG:https://fatema.alizaheer.org/assets/invitation_milad.jpg
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Wedding of Ali Zaheer & Fatema
+DESCRIPTION:Reminder: Fatema Khimji's Mīlād
 END:VALARM
 END:VEVENT
 END:VCALENDAR
