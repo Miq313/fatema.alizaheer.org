@@ -63,7 +63,10 @@
         </div>
 
         <!-- Submit Button -->
-        <button type="submit" id="submit-btn">RSVP</button>
+        <button type="submit" id="submit-btn">
+            <span class="submit-btn__label">RSVP</span>
+            <span class="submit-btn__spinner" aria-hidden="true"></span>
+        </button>
     </form>
 
     <div class="footer">
@@ -145,7 +148,7 @@
             alert('Something went wrong. Please try again.');
             submitBtn.disabled = false;
             submitBtn.classList.remove('loading');
-            submitBtn.textContent = 'RSVP';
+            submitBtn.querySelector('.submit-btn__label').textContent = 'RSVP';
         }
         });
 
