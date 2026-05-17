@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JazākAllāh!</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <style>
+        .calendar-buttons button {
+          background-color: white;
+          color: #65101B;
+          width: 90vw;
+          max-width: 400px;
+          margin: 10px auto;
+          display: block;
+          font-size: 1.1em;
+          padding: 1em;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      
+        .calendar-buttons a {
+            text-decoration: none;
+        }
+
+        .calendar-buttons {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 2.5em;
+          margin-bottom: 3em;
+          opacity: 0;
+          animation: fadeIn 2s ease-in-out forwards 1.5s;
+        }
+      </style>      
+</head>
+
+<body>
+  <div class="header">
+    <img src="/assets/bismillah.svg" alt="Bismillah" class="header-bismillah"><br>
+    <h1>R S V P</h1>
+        <h2>Jazākumullāhu Khayran!</h2>
+        <div class="calendar-buttons">
+            <h3>Add it to your calendar so you don’t forget.</h3>
+            <br>
+            <a href="/assets/rsvp.ics" download="rsvp-event.ics">
+              <button>Add to Apple Calendar</button>
+            </a>
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+of+Ali+Zaheer+%26+Fatema&dates=20260907T144500/20260907T180000&ctz=America/Toronto&location=Jaffari+Community+Centre%2C+9000+Bathurst+St%2C+Thornhill%2C+ON&details=%D8%A8%D9%90%D8%B3%D9%92%D9%85%D9%90+%D8%A7%D9%BB%D9%84%D9%84%D9%91%D9%B0%D9%87%D9%90+%D8%A7%D9%BB%D9%84%D8%B1%D9%91%D9%8E%D8%AD%D9%92%D9%85%D9%B0%D9%86%D9%90+%D8%A7%D9%BB%D9%84%D8%B1%D9%91%D9%8E%D8%AD%D9%90%D9%8A%D9%85%D9%90%0A%0AThe+Rizvi+and+Khimji+families+cordially+invite+you+to+join+us+for+the+Nik%C4%81%E1%B8%A5+Ceremony+and+Wal%C4%ABma+dinner+of+Ali+Zaheer+and+Fatema.%0A%0AKindly+accept+this+as+a+personal+invitation+from+both+our+families+and+remember+to+keep+the+couple+in+your+prayers." target="_blank">
+                <button>Add to Google Calendar</button>
+            </a>              
+          </div>          
+    </div>
+    
+    <div class="footer">
+        <img src="/assets/dove.svg" alt="Dove" class="footer-logo">
+    </div>
+</body>
+</html>
